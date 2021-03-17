@@ -1,10 +1,10 @@
 # API-SPC
 ## :dart: Objetivo:
-Projeto dedicado a desenvolver um projeto para o SPC. A empresa SPC no momento possui uma segmentação antiga, não expressa o mercado atual e é pouco utilizada internamente. Não possui o detalhamento de potencial financeiro ou perfil. Atualmente a análise é gerada manualmente, portanto o projeto será direcionado a automatizar esse processo e realizar a extração de informação dessa análise.
+<p align="justify">Projeto dedicado a desenvolver um projeto para o SPC. A empresa SPC no momento possui uma segmentação antiga, não expressa o mercado atual e é pouco utilizada internamente. Não possui o detalhamento de potencial financeiro ou perfil. Atualmente a análise é gerada manualmente, portanto o projeto será direcionado a automatizar esse processo e realizar a extração de informação dessa análise.</p>
 
 ## Quem é SPC?
-É um gestor de Banco de dados de cadatros, entre eles são cadastro negativo e cadastro positivo. O Cadastro negativo é voltado para as informações das restrições do cliente. E o cadastro positivo é direcionado as informações dos Bancos, podendo assim saber sobre o cliente as transações financeiras realizadas, quais os clientes que são bons pagadores, quais pagam as contas adiantados, ou quais pagas no dia certo ou atrasam, quais possuem uma conta mais alta ou baixa. Em suma, caracterizando o perfil do consumidor.
-A empresa SPC possui + de 45 milhões de cadastros de pessoas jurídicas, presentes em + de 2000 municípios. Tem o maior Banco de Dados da América Latina. E faz parceria com o maior concorrente Serasa, onde compartilha algumas informações e delimita o seu território.
+<p align="justify">É um gestor de Banco de dados de cadatros, entre eles são cadastro negativo e cadastro positivo. O Cadastro negativo é voltado para as informações das restrições do cliente. E o cadastro positivo é direcionado as informações dos Bancos, podendo assim saber sobre o cliente as transações financeiras realizadas, quais os clientes que são bons pagadores, quais pagam as contas adiantados, ou quais pagas no dia certo ou atrasam, quais possuem uma conta mais alta ou baixa. Em suma, caracterizando o perfil do consumidor.
+A empresa SPC possui + de 45 milhões de cadastros de pessoas jurídicas, presentes em + de 2000 municípios. Tem o maior Banco de Dados da América Latina. E faz parceria com o maior concorrente Serasa, onde compartilha algumas informações e delimita o seu território.</p>
 
 ## Resolução
 Para resolver o problema vigente será necessário atender aos seguintes critérios:
@@ -21,7 +21,7 @@ Para resolver o problema vigente será necessário atender aos seguintes critér
 - Automatizar metodologia escalável.
 
 ## Resultado para SPC
-Por meio do desenvolvimento desse projeto a empresa SPC vai ter um maior detalhamento do cliente, que permitirá ações comerciais personalizadas. Contribuirá também para a automatização de identificação de potencial de marcado, com viés comercial, proporcionando assim um maior aumento da base de dados. Terá aprimoramento das recomendações de produtos e ações comerciais por perfil de associados, classificando quem são os associados ativos e quais os semelhantes.
+<p align="justify">Por meio do desenvolvimento desse projeto a empresa SPC vai ter um maior detalhamento do cliente, que permitirá ações comerciais personalizadas. Contribuirá também para a automatização de identificação de potencial de marcado, com viés comercial, proporcionando assim um maior aumento da base de dados. Terá aprimoramento das recomendações de produtos e ações comerciais por perfil de associados, classificando quem são os associados ativos e quais os semelhantes.</p>
 
 ## :pushpin: Primeira Entrega: perfil cliente SPC Brasil
 É preciso ter:
