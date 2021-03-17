@@ -8,3 +8,4 @@ Adriano De Aquino   |
 Gustavo Robert      | 
 Pablo Gabriel       | 
 Rodrigo Querino     | 
+Stephánie Costta    |
