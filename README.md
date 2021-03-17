@@ -1,4 +1,4 @@
-# API-SPC: Projeto integrador - SPC
+# API-SPC: Projeto Integrador - SPC
 ## :dart: Objetivo:
 <p align="justify">Projeto dedicado a desenvolver um projeto para o SPC. A empresa SPC no momento possui uma segmentação antiga, não expressa o mercado atual e é pouco utilizada internamente. Não possui o detalhamento de potencial financeiro ou perfil. Atualmente a análise é gerada manualmente, portanto o projeto será direcionado a automatizar esse processo e realizar a extração de informação dessa análise.</p>
 
