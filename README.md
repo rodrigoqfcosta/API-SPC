@@ -1,4 +1,5 @@
 # API-SPC
+## :dart: Objetivo:
 Repositorio destinado para Aprendizagem por Projeto Integrador - API,  tendo como cliente a SPC
 
 # Integrantes da Equipe
