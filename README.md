@@ -31,22 +31,41 @@ Verticais de Mercado  |Segmentar o tipo de mercado que atua em uma determinada r
 Seguimento de Mercado |Mapear o tipo de segmento mercado atua em uma determinada região, como Bens de Luxo até mesmo prestação de serviços exclusivos
 Produto               |Quais diferentes produtos são ofertados pelo SPC
 
+## Tecnologia Aplicada
+
+## Marcos do projeto
+
+Marcos     | Descrição  | Previsão
+---------- | ---------- | ----------
+Kick-off do projeto||04/03/2021
+1ª Sprint||08/03 - 28/03
+2ª Sprint||29/03 - 18/04
+3ª Sprint||26/04 - 16/05
+4ª Sprint||17/05 - 05/06
+Apresentação final||07/06 - 11/06
+Feira de soluções||14/06 - 18/06
+
+## Premissas
+- Ao término de cada Sprint, disponibilizar para o cliente um relatório sobre o andamento do projeto;
+- Todos os colaboradores deverão estar ativos e participantes durante todo o processo de desenvolvimento;
+- Reuniões diárias abertas para discussões sobre dificuldades e possíveis aprimoramentos no projeto.
+
+
+## Possíveis RISCOS
+
+Descrição do Risco | Probabilidade | Impacto | Descrição do impacto | Ação | Descrição da Ação
+:----------------- | :-----------: | :-----: | :------------------- | :--: | :----------------
+Número de participantes abaixo do mínimo requerido |2|4|Acúmulo de tarefas, sobrecarregando os participantes|Prevenir|Realizações de reuniões diarias, além de sempre comunicar  possíveis ausências com antecedência.
+Falha na comunicação com o cliente|4|5|Comprometimento das entregas, por falta de feedback.|Prevenir| Desenvolver um escopo bem definido desde o inicio, evitando constantes solicitações de validação com o cliente.
+Falha na comunicação com o time|2|3|Falta de feedback em relação ao desenvolvimento do projeto|Prevenir|Manter sempre o time em conexão com o projeto, lista de atividade sempre bem estruturada e designada de forma adequada. 
+Indisponibilidade do repositório remoto|1|5|Atraso nas entregas das tarefas|Mitigar|Manter sempre o repositório local atualizado.
+
 ## Integrantes da Equipe
 
-
-Participante | Função
------------- | ---------------
-Rodrigo Querino | Scrum Master
-Gustavo Robert | Product Owner
-Stephanie Costa | Analista de dados
-Pablo Gabriel | Dev. Backend
-Adriano de Aquino | Dev. Frontend
-
-
-Nome                | GitHub
----------           | ------:
-Adriano De Aquino   |<a href="https://github.com/adriianoakino">GitHub</a>
-Gustavo Robert      |<a href="https://github.com/gusrobert">GitHub</a>
-Pablo Gabriel       |<a href="https://github.com/PGabriel-MB">GitHub</a>
-Rodrigo Querino     |<a href="https://github.com/rodrigoqfcosta">GitHub</a>
-Stephánie Costta    |<a href="https://github.com/Stephanie345">GitHub</a>
+Participante      | Função            | Github     
+:-----------      | :-------------:   | :------------:
+Rodrigo Querino   | Scrum Master      | <a href="https://github.com/rodrigoqfcosta">GitHub</a>
+Gustavo Robert    | Product Owner     | <a href="https://github.com/gusrobert">GitHub</a>
+Stephanie Costa   | Analista de dados | <a href="https://github.com/Stephanie345">GitHub</a>
+Pablo Gabriel     | Dev. Backend      | <a href="https://github.com/PGabriel-MB">GitHub</a>
+Adriano de Aquino | Dev. Frontend     | <a href="https://github.com/adriianoakino">GitHub</a>
