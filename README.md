@@ -1,4 +1,6 @@
-![Logo_SPC_](https://user-images.githubusercontent.com/54897768/114798334-84ccae00-9d6b-11eb-9de0-fb226835808a.png)
+![logo-spc-png-3-Transparent-Images](https://user-images.githubusercontent.com/54897768/114814276-3e3a7c00-9d8a-11eb-851a-4d270374847c.png)![fatecsjc_400x192](https://user-images.githubusercontent.com/54897768/114814289-44305d00-9d8a-11eb-9486-a742419c575b.png)
+
+
 # API-SPC: Projeto Integrador - SPC
 ## :dart: Situação atual e justificativa do projeto:
 <p align="justify">A SPC possui atualmente uma segmentação de dados bem antiga, desde 2013, e que não expressa o mercado atual e também pouco utilizada. Logo dispõe de uma ferramenta de Market Share, que é importante para mensurar o tamanho e seu posicionamento de mercado, porém o modelo atual acabou ficando subutilizada, não seguimentando dados importantes para determinar o potencial financeiro, tendência de mercado e até mesmo o perfil de consumo de uma região. Hoje todo trabalho de análise e extração dos dados é feito manualmente pela equipe analítica da SPC, o projeto API da FATEC de São José dos Campos tem como objetivo automatizar o processo e a extração das análises.</p>
@@ -33,7 +35,7 @@ Seguimento de Mercado |Mapear o tipo de segmento mercado atua em uma determinada
 Produto               |Quais diferentes produtos são ofertados pelo SPC
 
 ## Processos
-<Insert process picture>
+![MAPA DO PROCESSO](https://user-images.githubusercontent.com/54897768/114814070-c9674200-9d89-11eb-8956-5e61cd92a1f9.jpg)
 
 ## Tecnologia Aplicada
 
