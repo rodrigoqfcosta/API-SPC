@@ -1,6 +1,7 @@
+![Logo_SPC_](https://user-images.githubusercontent.com/54897768/114798334-84ccae00-9d6b-11eb-9de0-fb226835808a.png)
 # API-SPC: Projeto Integrador - SPC
 ## :dart: Situação atual e justificativa do projeto:
-<p align="justify">A SPC possui atualmente uma segmentação de dados bem antiga, desde 2013, e que não expressa o mercado atual e também pouco utilizada. Logo dispõe de uma ferramenta de Market Share, que é importante para mensurar o seu tamanho e posicionamento no mercado, porém o modelo atual acabou ficando subutilizada, não disponibilizando informações importantes, por exemplo, o potencial financeiro da região e até mesmo perfil do cliente. Hoje todo trabalho de análise e extração dos dados é feito manualmente pela equipe analítica, o projeto API da FATEC de São José dos Campos tem como objetivo automatizar o processo e a extração das análises.</p>
+<p align="justify">A SPC possui atualmente uma segmentação de dados bem antiga, desde 2013, e que não expressa o mercado atual e também pouco utilizada. Logo dispõe de uma ferramenta de Market Share, que é importante para mensurar o tamanho e seu posicionamento de mercado, porém o modelo atual acabou ficando subutilizada, não seguimentando dados importantes para determinar o potencial financeiro, tendência de mercado e até mesmo o perfil de consumo de uma região. Hoje todo trabalho de análise e extração dos dados é feito manualmente pela equipe analítica da SPC, o projeto API da FATEC de São José dos Campos tem como objetivo automatizar o processo e a extração das análises.</p>
 
 
 ## Objetivos SMART e critérios de sucesso do projeto
@@ -31,7 +32,18 @@ Verticais de Mercado  |Segmentar o tipo de mercado que atua em uma determinada r
 Seguimento de Mercado |Mapear o tipo de segmento mercado atua em uma determinada região, como Bens de Luxo até mesmo prestação de serviços exclusivos
 Produto               |Quais diferentes produtos são ofertados pelo SPC
 
+## Processos
+<Insert process picture>
+
 ## Tecnologia Aplicada
+
+![logo_python](https://user-images.githubusercontent.com/54897768/114801243-b6e10e80-9d71-11eb-899d-9781ef29245b.png) Python:
+
+![Jupyter_notebook_logo](https://user-images.githubusercontent.com/54897768/114801631-759d2e80-9d72-11eb-9f28-d822a5943567.jpeg) Jupyter Notebook:
+
+![Angular_logo](https://user-images.githubusercontent.com/54897768/114801940-2277ab80-9d73-11eb-9dad-a2aee6c39021.jpg) Angular:
+
+![mongodb-logo](https://user-images.githubusercontent.com/54897768/114802261-ca8d7480-9d73-11eb-8c06-f4db57c0103f.png) MongoDB:
 
 ## Marcos do projeto
 
@@ -69,3 +81,5 @@ Gustavo Robert    | Product Owner     | <a href="https://github.com/gusrobert">G
 Stephanie Costa   | Analista de dados | <a href="https://github.com/Stephanie345">GitHub</a>
 Pablo Gabriel     | Dev. Backend      | <a href="https://github.com/PGabriel-MB">GitHub</a>
 Adriano de Aquino | Dev. Frontend     | <a href="https://github.com/adriianoakino">GitHub</a>
+
+> Gerente do projeto: Prof Me Eduardo Sakaue
