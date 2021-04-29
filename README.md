@@ -39,13 +39,16 @@ Produto               |Quais diferentes produtos são ofertados pelo SPC
 
 ## Tecnologia Aplicada
 
-![logo_python](https://user-images.githubusercontent.com/54897768/114801243-b6e10e80-9d71-11eb-899d-9781ef29245b.png) Python:
+![logo_python](https://user-images.githubusercontent.com/54897768/114801243-b6e10e80-9d71-11eb-899d-9781ef29245b.png) O Python é uma linguagem de programação de alto nível e muito versátil. Ela suporta tanto a programação orientada a objetos quanto a programação estruturada.
 
-![Jupyter_notebook_logo](https://user-images.githubusercontent.com/54897768/114801631-759d2e80-9d72-11eb-9f28-d822a5943567.jpeg) Jupyter Notebook:
+![Jupyter_notebook_logo](https://user-images.githubusercontent.com/54897768/114801631-759d2e80-9d72-11eb-9f28-d822a5943567.jpeg) O Jupyter Notebook é um interfarce gráfica que permite a edição de notebooks que combina código ao vivo, gráficos, visualizações e texto em blocos de anotações compartilháveis que são executados em um navegador web, tais como Google Chrome ou Firefox.
 
-![Angular_logo](https://user-images.githubusercontent.com/54897768/114801940-2277ab80-9d73-11eb-9dad-a2aee6c39021.jpg) Angular:
+![Angular_logo](https://user-images.githubusercontent.com/54897768/114801940-2277ab80-9d73-11eb-9dad-a2aee6c39021.jpg) Angular é uma plataforma e framework para construção da interface de aplicações usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google.
 
-![mongodb-logo](https://user-images.githubusercontent.com/54897768/114802261-ca8d7480-9d73-11eb-8c06-f4db57c0103f.png) MongoDB:
+![mongodb-logo](https://user-images.githubusercontent.com/54897768/114802261-ca8d7480-9d73-11eb-8c06-f4db57c0103f.png) O MongoDB é um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL. Os banco de dados NoSQL apresentam algumas vantagens sobre os outros tipos, principalmente quando precisamos de escalabilidade, flexibilidade, bom desempenho e facilidade para consultas.
+
+![logo-googleMaps](https://user-images.githubusercontent.com/54897768/116502595-5205d800-a88a-11eb-811d-46f93e878da6.png) Google Maps API é um serviço público e gratuito que qualquer pessoa pode usar em seus sites e aplicações. Desde que o usuário final não seja cobrado, pode-se usar este serviço, para isto existe a versão paga da API, mas não é o caso para este projeto que visa apenas o estudo e compreensão da mesma.
+
 
 ## Marcos do projeto
 
