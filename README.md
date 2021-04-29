@@ -20,7 +20,7 @@
 - Obter aprovação do cliente em relação às soluções e ferramentas desenvolvidas durante o projeto até o prazo final.
 
 
-## Produto e principais requisitos
+## :shopping: Produto e principais requisitos
 <p align="justify">O novo produto da SPC, denominado “SPC Recomenda”, busca entregar para o usuário uma experiência mais ampla de visão de mercado, dando a ele mais informação sobre aspectos de consumo na região e potencial financeiro da região, auxiliando na tomada de decisão.</p>
 
 REQUISITOS            | DESCRIÇÃO
@@ -37,7 +37,7 @@ Produto               |Quais diferentes produtos são ofertados pelo SPC
 ## Processos
 ![MAPA DO PROCESSO](https://user-images.githubusercontent.com/54897768/114814070-c9674200-9d89-11eb-8956-5e61cd92a1f9.jpg)
 
-## Tecnologia Aplicada
+## :hammer_and_wrench: Tecnologia Aplicada
 
 ![logo_python](https://user-images.githubusercontent.com/54897768/114801243-b6e10e80-9d71-11eb-899d-9781ef29245b.png) O Python é uma linguagem de programação de alto nível e muito versátil. Ela suporta tanto a programação orientada a objetos quanto a programação estruturada.
 
@@ -50,7 +50,7 @@ Produto               |Quais diferentes produtos são ofertados pelo SPC
 ![logo-googleMaps](https://user-images.githubusercontent.com/54897768/116502595-5205d800-a88a-11eb-811d-46f93e878da6.png) Google Maps API é um serviço público e gratuito que qualquer pessoa pode usar em seus sites e aplicações. Desde que o usuário final não seja cobrado, pode-se usar este serviço, para isto existe a versão paga da API, mas não é o caso para este projeto que visa apenas o estudo e compreensão da mesma.
 
 
-## Marcos do projeto
+## :pushpin: Marcos do projeto
 
 Marcos     | Descrição  | Previsão
 ---------- | :--------- | ----------
@@ -68,7 +68,7 @@ Feira de soluções||14/06 - 18/06
 - Reuniões diárias abertas para discussões sobre dificuldades e possíveis aprimoramentos no projeto.
 
 
-## Possíveis RISCOS
+## :warning: Possíveis RISCOS
 
 Descrição do Risco | Probabilidade | Impacto | Descrição do impacto | Ação | Descrição da Ação
 :----------------- | :-----------: | :-----: | :------------------- | :--: | :----------------
@@ -77,7 +77,7 @@ Falha na comunicação com o cliente|4|5|Comprometimento das entregas, por falta
 Falha na comunicação com o time|2|3|Falta de feedback em relação ao desenvolvimento do projeto|Prevenir|Manter sempre o time em conexão com o projeto, lista de atividade sempre bem estruturada e designada de forma adequada. 
 Indisponibilidade do repositório remoto|1|5|Atraso nas entregas das tarefas|Mitigar|Manter sempre o repositório local atualizado.
 
-## Integrantes da Equipe
+## :octocat: Integrantes da Equipe
 
 Participante      | Função            | Github     
 :-----------      | :-------------:   | :------------:
