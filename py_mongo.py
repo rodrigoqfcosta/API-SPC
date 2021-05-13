@@ -15,7 +15,7 @@ collection_test = db["teste"]
 collection = db["segmentado"]
 
 # Inserção da base de dados de TESTE
-path_CSV = 'C:/Users/rodri/Repositorios_GIT/API-SPC/analise_jupyter/dataset_v01.csv'
+path_CSV = 'analise_jupyter/dataset_v01.csv'
 with open(path_CSV, "r") as file:
     dados = [record for record in DictReader(file)]
 #collection_test.insert_many(dados)  # Habilite essa linha para fazer a inserção na base
