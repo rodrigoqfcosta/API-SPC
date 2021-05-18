@@ -4,6 +4,7 @@ import {
   OnInit, 
   ViewChild
 } from '@angular/core';
+import { HttpClient } from "@angular/common/http";
 
 import * as XLSX              from 'xlsx';
 import * as assertions        from '../../../utils/assertionConcern'
@@ -24,16 +25,18 @@ export class UploadArchiveComponent implements OnInit {
   
   @ViewChild('inputXls') inputXls: ElementRef;
 
-  constructor() { }
+  constructor(private httpClient: HttpClient) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getClients();
+  }
 
-  
-    showArchiveName(event: any) {
-      if (event.target.files && event.target.files[0]) 
-        this.pathName = event.target.files[0].name;
-        this.document = event
-    }
+
+  showArchiveName(event: any) {
+    if (event.target.files && event.target.files[0]) 
+      this.pathName = event.target.files[0].name;
+      this.document = event
+  }
 
   onUploadArchive() {
     var target: DataTransfer = <DataTransfer>(this.document.target);
@@ -87,6 +90,15 @@ export class UploadArchiveComponent implements OnInit {
     this.inputXls.nativeElement.value = ''
     this.data = [];
     this.lines = 0
+  }
+
+  getClients() {
+    this.httpClient.get('http://localhost:5000/users')
+      .subscribe(res => {
+        console.log('SUCESSO!', res)
+      }, err => {
+        console.log('ERRO', err)
+      });
   }
 
 }
