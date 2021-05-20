@@ -17,11 +17,11 @@ def reverse_geocode(lat, long):
     result = cliente_maps.reverse_geocode((lat, long))
     #pprint(result)
     try:
-        cidade = result[0]['address_components'][2]['long_name']
-        estado = result[0]['address_components'][3]['long_name']
+        address = result[0]['formatted_address'].split(',')
+        cidade_estado = address[2].split('-')
         tipo = result[0]['types'][0]
-        lista.append(cidade)
-        lista.append(estado)
+        lista.append(cidade_estado[0].strip())
+        lista.append(cidade_estado[1].strip())
         lista.append(tipo)
     except:
         lista.append('Cidade Não encontrada!')
@@ -31,5 +31,5 @@ def reverse_geocode(lat, long):
     return lista
 
 
-# Desmarque para teste
-#reverse_geocode(-18.45250818, -44.17324348)
+# Desmarque para teste de API
+reverse_geocode(-4.84758, -37.78439)
