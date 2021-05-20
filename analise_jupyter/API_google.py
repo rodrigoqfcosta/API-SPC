@@ -13,23 +13,37 @@ def geocode(adress):
 
 
 def reverse_geocode(lat, long):
-    lista = []
+    """ 
+    Função que recebe a latitude e longitude do dataframe e retorna os dados da cidade, estado, tipo do logradouro 
+    e determina se o endereço pertence a Pessoa fisica (CPF) ou Juridica (CNPJ).
+
+    Args:
+        lat (float): [Latitude]
+        long (float): [longitude]
+
+    Returns:
+        list: [cidade, estado, logradouro, tipo_pessoa]
+    """
     result = cliente_maps.reverse_geocode((lat, long))
-    #pprint(result)
+    
+    logradouro = result[0]['types'][0]
+    if 'establishment' in result[0]['types']:
+        tipo_pessoa = 'CNPJ'
+    else:
+        tipo_pessoa = 'CPF'
+    
     try:
-        address = result[0]['formatted_address'].split(',')
-        cidade_estado = address[2].split('-')
-        tipo = result[0]['types'][0]
-        lista.append(cidade_estado[0].strip())
-        lista.append(cidade_estado[1].strip())
-        lista.append(tipo)
+        for c in range(len(result[0]['address_components'])):
+            if 'administrative_area_level_2' in result[0]['address_components'][c]['types']:
+                cidade = result[0]['address_components'][c]['long_name']
+            elif 'administrative_area_level_1' in result[0]['address_components'][c]['types']:
+                estado = result[0]['address_components'][c]['long_name']
     except:
-        lista.append('Cidade Não encontrada!')
-        lista.append('Estado Não encontrado!')
-        lista.append('N/D!')
-        
-    return lista
+        cidade = 'NaN'
+        estado = 'NaN'    
+
+    return [cidade, estado, logradouro, tipo_pessoa]
 
 
 # Desmarque para teste de API
-reverse_geocode(-4.84758, -37.78439)
+reverse_geocode(-23.2469265,-45.8384675)
