@@ -1,6 +1,5 @@
 # Link para documentação do MongoDB server: https://docs.mongodb.com/manual/reference/
 
-import pymongo
 from pymongo import MongoClient
 from csv import DictReader
 from SETUP import USERNAME, PASSWORD
@@ -18,7 +17,7 @@ collection = db["segmentado"]
 path_CSV = 'analise_jupyter/dataset_v01.csv'
 with open(path_CSV, "r") as file:
     dados = [record for record in DictReader(file)]
-#collection_test.insert_many(dados)  # Habilite essa linha para fazer a inserção na base
+collection_test.insert_many(dados)  # Habilite essa linha para fazer a inserção na base
 #collection_test.delete_many({})  # Habilitar essa linha para exclusão da collection_test 
 
 print(collection_test.count_documents({}))  # Contagem dos documentos na collection_test, tem de ser igual a 10000
@@ -28,7 +27,7 @@ cont = 1
 results = collection_test.find({})
 for result in results:
     id = result['id']
-    if result['latitude'] != "" or result['longitude'] != "":
+    if result['latitude'] != "" and result['longitude'] != "":
         lat = result['latitude'] if type(result['latitude']) == float else float(result['latitude'].replace(',', '.'))
         long = result['longitude'] if type(result['longitude']) == float else float(result['longitude'].replace(',', '.'))
         result['latitude'] = lat
