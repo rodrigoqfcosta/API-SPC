@@ -1,8 +1,8 @@
 # Aplicação da API Google Maps
 
-from pprint import pprint
-from SETUP import API_KEY
 import googlemaps
+from SETUP import API_KEY
+from pprint import pprint
 
 cliente_maps = googlemaps.Client(API_KEY)
 
@@ -40,10 +40,11 @@ def reverse_geocode(lat, long):
                 estado = result[0]['address_components'][c]['long_name']
     except:
         cidade = 'NaN'
-        estado = 'NaN'    
+        estado = 'NaN'
+        tipo_pessoa = 'NaN'
 
     return [cidade, estado, logradouro, tipo_pessoa]
 
 
 # Desmarque para teste de API
-reverse_geocode(-23.2469265,-45.8384675)
+#pprint(reverse_geocode(-23.2469265,-45.8384675))
