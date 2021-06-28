@@ -1,6 +1,4 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { Loader } from '@googlemaps/js-api-loader';
-import { STYLE_MAP } from 'src/app/utils/consts';
 import { GetData } from '../../services/CpfsAPI';
 import MarkerClusterer from '@googlemaps/markerclustererplus';
 
