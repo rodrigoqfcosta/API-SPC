@@ -1,0 +1,14 @@
+<div style="height: 50px; width: 100%;">
+    <input type="radio" name="grupo" (click)="changeEndpoint('/cpf')" checked> Pessoas Físicas
+    <input type="radio" name="grupo" (click)="changeEndpoint('/cnpj')" > Pessoas Jurídicas
+</div>
+
+<div style="height: 50px; width: 100%;" id="radionTypeMap">
+    <input #marker type="radio" name="grupo1" (click)="habilitarMarkers()" checked> Markers
+    <input type="radio" name="grupo1" (click)="habilitarHeatMap()" > HeatMap
+    <input type="radio" name="grupo1" (click)="habilitarCluster()" > Clusters
+</div>
+
+<div class="full" id="map">
+
+</div>
