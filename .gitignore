@@ -113,6 +113,7 @@ fabric.properties
 # Cache file creation bug
 # See https://youtrack.jetbrains.com/issue/JBR-2257
 .idea/$CACHE_FILE$
+__pycache__
 
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
@@ -133,7 +134,7 @@ pyvenv.cfg
 pip-selfcheck.json
 
 ### vscode ###
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json

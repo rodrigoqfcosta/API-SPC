@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "server": "json-server --watch json/cpf.json"
   },
   "private": true,
   "dependencies": {
@@ -19,9 +20,14 @@
     "@angular/platform-browser": "~11.2.6",
     "@angular/platform-browser-dynamic": "~11.2.6",
     "@angular/router": "~11.2.6",
+    "@googlemaps/js-api-loader": "^1.12.1",
+    "@googlemaps/markerclustererplus": "^1.2.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "compass-mixins": "^0.12.10",
     "jquery": "^3.6.0",
+    "js-marker-clusterer": "^1.0.0",
+    "json-server": "^0.16.3",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "node-sass": "^5.0.0",
@@ -35,6 +41,7 @@
     "@angular-devkit/build-angular": "~0.1102.5",
     "@angular/cli": "~11.2.5",
     "@angular/compiler-cli": "~11.2.6",
+    "@types/google.maps": "^3.45.4",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",

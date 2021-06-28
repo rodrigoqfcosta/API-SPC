@@ -40,7 +40,7 @@ export class UploadArchiveComponent implements OnInit {
     if (target.files.length !== 1) throw new Error('Selecione apenas um documento');
 
     var awaitAlert = alert.aMessageAwait(message.AWAIT_LOADING, message.AWAIT_END_DATA_PROCESSING)
-    alert.aMessageAwait(message.AWAIT_LOADING, message.AWAIT_END_DATA_PROCESSING)
+    awaitAlert
 
     var reader: FileReader = new FileReader();
     reader.onload = (e: any) => {
@@ -50,8 +50,6 @@ export class UploadArchiveComponent implements OnInit {
       const ws: XLSX.WorkSheet = wb.Sheets[wsname];
       this.data = <XLSX.SheetAOAOpts>(XLSX.utils.sheet_to_json(ws, {header: 1}));
       this.lines = this.data.length
-
-      this.stateDocumentVerify(this.data)
     };
 
     reader.readAsBinaryString(target.files[0]);
