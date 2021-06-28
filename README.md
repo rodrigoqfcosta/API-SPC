@@ -61,6 +61,7 @@ Kick-off do projeto|- Primeiro contato com o cliente, definição dos requisitos
 4ª Sprint|- Segmentação do potencial financeiro da região (IA).<br> - Rastrear do segmento de mercado de uma determinada região(IA).<br> - Mapeamento dos verticais de mercado (IA).<br> - CheckList das entregas.|17/05 - 05/06
 Apresentação final||07/06 - 11/06
 Feira de soluções||14/06 - 18/06
+5ª Sprint|- Segmentação da categoria de consumo por grupo de idade (IA).<br> - Configuração do Front com os novos Cluster gerados pela IA. |18/06 - 26/06
 
 ## Premissas
 - Ao término de cada Sprint, disponibilizar para o cliente um relatório sobre o andamento do projeto;
